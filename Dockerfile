@@ -26,6 +26,6 @@ RUN COG_VERSION=V2 make rpi-epd_fuse
 RUN COG_VERSION=V2 make rpi-install
 
 COPY entrypoint.sh /bin/entrypoint.sh
-ENTRYPOINT /bin/entrypoint.sh
+ENTRYPOINT ["/bin/entrypoint.sh"]   
 
 WORKDIR /epaper/gratis/PlatformWithOS/demo
