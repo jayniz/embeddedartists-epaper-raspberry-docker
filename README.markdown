@@ -10,7 +10,7 @@ Follow their instructions on creating a new application and git push the
 following Dockerfile to your device:
 
 ```
-FROM jannis/epaper-docker
+FROM jannis/embeddedartists-epaper
 ```
 
 The display should blink a couple of times and display the current date and
